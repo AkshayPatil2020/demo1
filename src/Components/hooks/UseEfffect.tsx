@@ -32,9 +32,13 @@ function Main() {
     return (
       <>
             <div>UseEffect Count: {count}</div>
+            
             <div>Ref Count: {refValue.current}</div>
+
             <div>Custom Hook Count: {customHookCount}</div>
+
             <button onClick={incrementCount}>Increment Count </button>
+            
             <button style={{backgroundColor: `${useExampleContext()}`}}>Context change</button>
       </>
   )
